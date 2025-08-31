@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+*.env
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints
+*.ipynb~
+
+# --- Logs & debug ---
+*.log
+*.out
+*.err
+
+# --- Torch / ML training artifacts ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/          # tensorboard logs
+wandb/         # Weights & Biases logs
+lightning_logs/
+
+# --- Datasets / temp files ---
+data/
+datasets/
+*.npz
+*.npy
+*.csv
+*.tsv
+*.h5
+*.mat
+*.pkl
+*.joblib
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE configs ---
+.vscode/
+.idea/
+*.swp
